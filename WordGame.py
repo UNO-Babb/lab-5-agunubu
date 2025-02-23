@@ -71,7 +71,9 @@ def main():
 
     if not guessed:
            print("Sorry, you did not correctly guess the word.")
-           print("The word was",todayWord)
+
+    print("The word was",todayWord)
+
 
 
 if __name__ == '__main__':
