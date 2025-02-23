@@ -67,13 +67,11 @@ def main():
                 print("You got it in", guessNum, "tries!")
                 break
         
-        guessNum = guessNum + 1
+            guessNum = guessNum + 1
 
     if not guessed:
-           print("Sorry, you did not correctly guess the word.")  
-        
-        print("The word was", todayWord)
-
+           print("Sorry, you did not correctly guess the word.")
+           print("The word was",todayWord)
 
 
 if __name__ == '__main__':
